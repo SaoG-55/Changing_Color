@@ -1,0 +1,79 @@
+
+  
+
+body {
+     font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+    text-decoration:underline dotted wheat;
+    background: rgba(68, 75, 72, 0.781);
+    color: burlywood;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+  }
+  .red {
+    background: #cf190c;
+    margin-right: 2px;
+    margin-left: 40px;
+  }
+  .cyan {
+    background: #25ccf7;
+    margin-right: 2px;
+    margin-left: 1em;
+  }
+  .violet {
+    background: #2f1041;
+    margin-right: 2px;
+    margin-left: 1em;
+  }
+  .orange {
+    background: #f84f00f3;
+    margin-right: 2px;
+    margin-left: 1em;
+  }
+  .pink {
+    background: #d92c66;
+    margin-left: 1em;
+  }
+  
+  .center {
+    min-width: 900px;
+    height: 100px;
+    background: rgb(107, 100, 100);
+    border-radius: 100%;
+    transition: all 0.9 ease-in-out;
+    
+  }
+  .color-hover {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .text {
+    padding: 10px;
+    color: #ffffff;
+  }
+  .color {
+    width: 120px;
+    height: 80px;
+    border-radius: 10%;
+    margin-bottom: 0px;
+  }
+  .color:hover {
+    cursor: grabbing;
+  }
+  .color:last-child {
+    margin-bottom: 0;
+  }
+  
